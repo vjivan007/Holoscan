@@ -11,5 +11,8 @@ Design implement the Nvidia's Holoscan IP in the Lattice CertusPro-NX devices. T
       1) 10Gig SFP Ethernet interface
       2) Support for two MIPI DPHY Cameras in the standard 22pin Raspberry PI connectors.
       3) All powered from the USB connector.
+      4) Support for a mems microphone.
+      
+      
       
 
