@@ -1,4 +1,4 @@
-# Nvidia Holoscan Sensor Interface Board
+# Sensor Interface Board To Nvidia Holoscan
 This repository contains the design files for a **sensor interface board** based on NVIDIA's Holoscan IP. 
 The board is capable of connecting up to **two MIPI camera sensors**, handling data at a rate of 6 Gbps per channel. 
 This data is then transmitted upstream via a **10 Gigabit Ethernet interface**.
@@ -17,10 +17,10 @@ The following tools and components were used to create this board:
 ---
 
 ## Repository Contents
- * `Moonraker/Schematics/` : This directory contains the schematic and PCB layout files in KiCad format.*
- * `Moonraker/Fab/`        : This directroy contains the PCB layout, BOM and Gerbers*
- * `Moonraker/Fpga/`       : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.*
- * `Moonraker/Software`    : This directory contains examples, camera drivers and patch files*
+ - `Moonraker/Schematics/` : This directory contains the schematic and PCB layout files in KiCad format.
+ - `Moonraker/Fab/`        : This directroy contains the PCB layout, BOM and Gerbers
+ - `Moonraker/Fpga/`       : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.
+ - `Moonraker/Software`    : This directory contains examples, camera drivers and patch files
 
 ---
 
