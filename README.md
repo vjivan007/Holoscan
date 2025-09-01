@@ -17,10 +17,10 @@ The following tools and components were used to create this board:
 ---
 
 ## Repository Contents
- * `Moonraker/Schematics/`: This directory contains the schematic and PCB layout files in KiCad format.*
- * `Moonraker/Fab/        : This directroy contains the PCB layout, BOM and Gerbers*
- * `Moonraker/Fpga/`      : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.*
- * `Moonraker/Software    : This directory contains examples, camera drivers and patch files*
+ * `Moonraker/Schematics/` : This directory contains the schematic and PCB layout files in KiCad format.*
+ * `Moonraker/Fab/`        : This directroy contains the PCB layout, BOM and Gerbers*
+ * `Moonraker/Fpga/`       : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.*
+ * `Moonraker/Software`    : This directory contains examples, camera drivers and patch files*
 
 ---
 
