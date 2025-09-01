@@ -1,5 +1,7 @@
 # Nvidia Holoscan Sensor Interface Board
-This repository contains the design files for a **sensor interface board** based on NVIDIA's Holoscan IP. The board is capable of connecting up to **two MIPI camera sensors**, handling data at a rate of 6 Gbps per channel. This data is then transmitted upstream via a **10 Gigabit Ethernet interface**.
+This repository contains the design files for a **sensor interface board** based on NVIDIA's Holoscan IP. 
+The board is capable of connecting up to **two MIPI camera sensors**, handling data at a rate of 6 Gbps per channel. 
+This data is then transmitted upstream via a **10 Gigabit Ethernet interface**.
 
 The hardware and FPGA designs for this project are included in this repository.
 
@@ -8,23 +10,23 @@ The hardware and FPGA designs for this project are included in this repository.
 ## Design Tools and Components
 The following tools and components were used to create this board:
 
-* **Schematic and PCB Layout:** KiCad 9.0
-* **FPGA Design:** Lattice Radiant 2025.1 
-* **FPGA Device:** Lattice CertusPro-NX
+- **Schematic and PCB Layout:** KiCad 9.0**
+- **FPGA Design:** Lattice Radiant 2025.1** 
+- **FPGA Device:** Lattice CertusPro-NX**
 
 ---
 
 ## Repository Contents
-* `Moonraker/Schematics/`: This directory contains the schematic and PCB layout files in KiCad format.
-* `Moonraker/Fab/        : This directroy contains the PCB layout, BOM and Gerbers
-* `Moonraker/Fpga/`      : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.
-*  Moonraker/Software    : This directory contains examples, camera drivers and patch files
+- * `Moonraker/Schematics/`: This directory contains the schematic and PCB layout files in KiCad format.*
+- * `Moonraker/Fab/        : This directroy contains the PCB layout, BOM and Gerbers*
+- * `Moonraker/Fpga/`      : This directory contains the Lattice Radiant project files for the CertusPro-NX FPGA.*
+- *  Moonraker/Software    : This directory contains examples, camera drivers and patch files*
 
 ---
 
 ## Setup Information
-* The following link contains information as to setting up the Moonraker Board to the Nvidia AGX Orin.
-* https://docs.nvidia.com/holoscan/sensor-bridge/latest/index.html
+* The following link contains information as to setting up the Moonraker Board to the Nvidia AGX Orin.*
+* https://docs.nvidia.com/holoscan/sensor-bridge/latest/index.html*
 
 ---
 
@@ -33,12 +35,9 @@ This project is licensed under the **MIT License**.
 
 **Copyright (c) 2025 Vinay Jivan**
 
-> **MIT License**
->
-> **Copyright (c) 2025 Vinay Jivan**
->
-> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
->
-> The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
->
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+**MIT License**
+
+**Copyright (c) 2025 Vinay Jivan**
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
