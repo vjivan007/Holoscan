@@ -10,9 +10,9 @@ The hardware and FPGA designs for this project are included in this repository.
 ## Design Tools and Components
 The following tools and components were used to create this board:
 
-- **Schematic and PCB Layout:** KiCad 9.0**
-- **FPGA Design:** Lattice Radiant 2025.1** 
-- **FPGA Device:** Lattice CertusPro-NX**
+- **Schematic and PCB Layout:** KiCad 9.0
+- **FPGA Design:** Lattice Radiant 2025.1 
+- **FPGA Device:** Lattice CertusPro-NX
 
 ---
 
